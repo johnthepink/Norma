@@ -33,7 +33,7 @@ module.exports = (tasks, cwd) ->
 
 
 
-  timeout = setTimeout exit, 10000
+  timeout = setTimeout exit, 30000
 
 
   Norma.events.emit "message", "searching..."

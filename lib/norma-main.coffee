@@ -44,9 +44,6 @@ invoke = require("./utilities/launcher")
 # Launch the CLI (Command Line Interface)
 cli.launch(
   cwd: Flags.cwd
-  configPath: Flags[Tool]
-  require: Flags.require
-  completion: Flags.completion
   verbose: Flags.verbose
   ,
     invoke
